@@ -1,0 +1,35 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+*.swp
+*.swo
+
+# Ignore log files
+*.log
+
+# Ignore environment-specific files
+.env
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore dependencies and build output for Java
+/target/
+*.iml
+
+# Ignore dependencies and build output for Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore dependencies and build output for JavaScript
+/dist/
+/build/
